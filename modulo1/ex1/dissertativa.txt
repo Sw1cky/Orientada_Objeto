@@ -1,0 +1,88 @@
+﻿Exercício 1) 
+
+
+
+
+
+Exercício 2)
+
+eu escolheria a opção (C)  Programação orientada a objeto.
+
+Minha escolha é essa pois, permite modelar os dados e criar entidades do sistema (livros, autores, usuários, empréstimos) como objetos, e lês dar propriedades e atribuir comportamentos específicos. Da para demonstrar as interligações entre cada objeto de forma natural através de soluções logicas, todo livro tem um autor e um preço, o usuário pode comprar muitos livros, através das classes se é possível fazer reuso de códigos, facilitando a o crescimento do código do sistema, novas funções podem ser criadas com novas classes ou modificando as anteriores sem afetar a estrutura do sistema.
+
+Exercício 3)
+
+pessoa:
+nome: livro
+lista de livros: livros (array de objetos do tipo livro)
+
+Livros:
+titulos: string
+autor: objeto “autor”
+genero: string
+disponivel: boolean
+
+Autor:
+nome: string
+nacionalidade: inteiro
+data/nascimento: data
+
+Usuario:
+name: string
+idade: inteiro
+endereco: string
+livrosEmprestados: lista<livro (array de objetos do tipo empréstimo)
+
+Emprestimos:
+data/emprestimo: date
+data/devolução: date
+livro: objeto “livro”
+usuario: objeto “usuario”
+
+livro_emprestado:
+livro: autor
+usuario: emprestimo
+emprestimo: livro
+emprestimo: usuario
+
+relações
+1 autor = 1 pessoa 
+1 usuario = 1 pessoa
+1 livro possui 1 Autor principal
+Autores podem escrever +1livro
+livros podem ser emprestado N vezes mas não podem estar com mais de 1 pessoa por vez
+usuarios podem realivar N emprestimos de livros por vez
+cada emprestimo deve equivaler a pelo 1 livro e 1 usuario OU livro 1 usuario.
+Diagrama:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercício 4)
